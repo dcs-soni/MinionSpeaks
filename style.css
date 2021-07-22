@@ -15,17 +15,16 @@ body{
 /** Navigation **/
 .navigation{
     background-color: var(--primary-color);
-    padding: 2.5rem 0rem;
+    padding: 1.5rem 0rem;
     color: black;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     width: 100%;
 }
 
-
 .nav-brand{
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 4rem;
     text-align: center;
     padding-left: 20px;
     /* display: inline-block; */
@@ -35,7 +34,7 @@ body{
 
 
 /**Main content**/
-#text-area {
+#ip-txt, #op-txt {
     margin: 2rem;
     padding: 1rem;
     max-width: 60vw;
@@ -43,11 +42,11 @@ body{
 }
 
 /**Translate Button**/
-.translate{
+#btn-translate{
     display: block;
     padding: 1rem;
-    width: 30vh;
-    height: 8vh;
+    width: max-content;
+    height: max-content;
     margin: 2rem;
     border: 1px solid;
 }
