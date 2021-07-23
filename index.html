@@ -10,30 +10,43 @@
 <body>
     <nav class="navigation" >
         <div class="nav-brand">Minion Speaks</div>
+        <!-- <img src="img/minion-land.png" alt=""> -->
     </nav>
+    <section class="container">
+        <div class="left">
+            <img class="minion" src="img/minion.png" alt="">
+        </div>
+        
+        <div class="right">
+            <h1 class="heading">👇 Enter your text here 👇</h1>
+            <textarea name="textarea" id="ip-txt" placeholder="Type anything to translate into Minion's language" cols="100" rows="10"></textarea>
+        
+            <button id="btn-translate">Translate</button>
+        
+            <textarea name="answerarea" id="op-txt" placeholder="Translating.." cols="100" rows="10"></textarea>
+        </div>
+    </section>
 
-    <h1>👇 Enter your text here 👇</h1>
-    <textarea name="textarea" id="ip-txt" placeholder="Type anything to translate into Minion's language" cols="100" rows="10"></textarea>
 
-    <button id="btn-translate">Translate</button>
-
-    <textarea name="answerarea" id="op-txt" placeholder="Translating.." cols="100" rows="10"></textarea>
-
-    <footer class="footer container-fluid">
-        <div class="container">
-            <div class="footer-header">Header Inside Footer</div>
-            <ul class="unordered list-non-bullet lists-item-inline">
+    <footer>
+        <div class="footer-header">Let's Connect </div>
+            <ul class="link lists-item-inline">
                 <li class="lists-item-inline">
-                    <a class="link" href="/" >socialOne</a>
+                    <a class="link" href="/" ><img src="img/twitter.svg"></a>
                 </li>
                 <li class="lists-item-inline">
-                    <a class="link" href="/" >socialTwo</a>
+                    <a class="link" href="/" ><img src="img/github.svg"></a>
                 </li>
                 <li class="lists-item-inline">
-                    <a class="link" href="/" >socialThree</a>
+                    <a class="link" href="/" ><img src="img/instagram.svg"></a>
+                </li>
+                <li class="lists-item-inline">
+                    <a class="link" href="/" ><img src="img/linkedin.svg"></a>
+                </li>
+                <li class="lists-item-inline">
+                    <a class="link" href="/" ><img src="img/gmail.svg"></a>
                 </li>
             </ul>
-        </div>
     </footer>
     
     <script src="app.js"></script>
