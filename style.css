@@ -1,43 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+
 *{
     box-sizing: border-box;
-
 }
 
 :root{
     --primary-color: yellow;
+    --background: #ffd92a;
 }
 
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--background);
 }
 
 /** Navigation **/
 .navigation{
-    background-color: var(--primary-color);
-    padding: 1.5rem 0rem;
+    padding: 0rem;
     color: black;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     width: 100%;
+    margin-top: 20px;
+
 }
 
 .nav-brand{
     font-weight: bold;
     font-size: 4rem;
-    text-align: center;
-    padding-left: 20px;
-    /* display: inline-block; */
+    text-align: left;
+    margin-left: 140px;
+    font-family: 'Nova Slim', cursive;
+}
+
+.heading {
+    margin: auto;
+    font-family: 'Nova Slim', cursive;
 
 }
 
 
-
 /**Main content**/
 #ip-txt, #op-txt {
-    margin: 2rem;
+    margin: auto;
     padding: 1rem;
-    max-width: 60vw;
+    max-width: 40vw;
+    height: 8vw;
+    border: 3px solid var(--background);
+
 
 }
 
@@ -45,23 +56,30 @@ body{
 #btn-translate{
     display: block;
     padding: 1rem;
-    width: max-content;
-    height: max-content;
-    margin: 2rem;
-    border: 1px solid;
+    margin: auto;   
+    border: 1px solid var(--background);
+    border-radius: 10px;
+    width: 14rem;
+    transition: background-color 3s ease 0s;
+
+}
+
+#btn-translate:hover {
+    background-color: #74b0e9;
 }
 
 /**Footer**/
 
 footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
     text-align: center;
     border-top-left-radius: 1rem;
 }
 
 .footer-header{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     color: var(--gray);
 }
 
@@ -77,4 +95,31 @@ footer {
 
 .link {
     text-decoration: none;
+}
+ 
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+} 
+
+footer {
+    clear: right;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.minion {
+    filter: drop-shadow(27px 5px 10px #000);
 }
