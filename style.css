@@ -45,9 +45,12 @@ body{
 #ip-txt, #op-txt {
     margin: auto;
     padding: 1rem;
+    /* min-width: 70vw; */
     max-width: 40vw;
     height: 8vw;
     border: 3px solid var(--background);
+    border-radius: 10px;
+    outline: none;
 
 
 }
@@ -56,11 +59,16 @@ body{
 #btn-translate{
     display: block;
     padding: 1rem;
-    margin: auto;   
+    margin: auto;
+    margin-top: 0; 
     border: 1px solid var(--background);
     border-radius: 10px;
     width: 14rem;
     transition: background-color 3s ease 0s;
+    font-size: 1rem;
+    font-family: 'Nova Slim', cursive;
+
+
 
 }
 
@@ -120,6 +128,54 @@ footer {
     flex: 1;
 }
 
+.right img {
+    width: 5rem;
+    margin: 0 auto;
+}
+
 .minion {
     filter: drop-shadow(27px 5px 10px #000);
+}
+
+@media only screen and (max-width: 640px) {
+
+    .nav-brand {
+        font-size: 3rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .minion {
+        display: block;
+        margin: 0 auto;
+        width: 20rem;
+        /* padding-left: 5rem; */
+    }
+
+    .heading {
+        padding: 2rem 0;
+    }
+
+    .ip-txt, .op-txt {
+        max-width: 20vw;
+    }
+    
+    .container {
+        /* display: block; */
+        flex-flow: column wrap;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    #btn-translate {
+        /* float: left; */
+        width: 30%;
+        height: 20%;
+    }
 }
