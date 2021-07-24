@@ -9,9 +9,13 @@
     --background: #ffd92a;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background-color: var(--background);
 }
 
@@ -46,8 +50,9 @@ body{
     margin: auto;
     padding: 1rem;
     /* min-width: 70vw; */
-    max-width: 40vw;
-    height: 8vw;
+    /* max-width: 40vw; */
+    height: 20vh;
+    width: 45vw;
     border: 3px solid var(--background);
     border-radius: 10px;
     outline: none;
@@ -68,8 +73,6 @@ body{
     font-size: 1rem;
     font-family: 'Nova Slim', cursive;
 
-
-
 }
 
 #btn-translate:hover {
@@ -80,10 +83,11 @@ body{
 
 footer {
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
     margin-top: 1rem;
     text-align: center;
     border-top-left-radius: 1rem;
+    clear: right;
+    width: 100vw;
 }
 
 .footer-header{
@@ -111,13 +115,11 @@ div {
     justify-content: left;
 } 
 
-footer {
-    clear: right;
-}
+
 
 .container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 100px;;
 }
 
 .left {
@@ -137,6 +139,8 @@ footer {
     filter: drop-shadow(27px 5px 10px #000);
 }
 
+/* For smaller screens  */
+
 @media only screen and (max-width: 640px) {
 
     .nav-brand {
@@ -147,7 +151,8 @@ footer {
     
     .minion {
         display: block;
-        margin: 0 auto;
+
+        margin: 0 15%;
         width: 20rem;
         /* padding-left: 5rem; */
     }
@@ -156,8 +161,10 @@ footer {
         padding: 2rem 0;
     }
 
-    .ip-txt, .op-txt {
-        max-width: 20vw;
+    #ip-txt, #op-txt {
+        height: 10vh;
+        width: 70vw;
+        margin-top: 10px;
     }
     
     .container {
