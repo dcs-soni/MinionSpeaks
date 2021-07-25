@@ -1,5 +1,12 @@
 # MinionSpeaks
 
+[Live](https://dcs-minion-speaks.netlify.app/)
+
 ## See how Minions speak their secret and funny language
 
-[!](Check here)
+Tech Stack -
+
+- HTML
+- CSS
+- JavaScript
+- Hosted on Netlify
