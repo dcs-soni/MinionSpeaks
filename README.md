@@ -8,7 +8,7 @@
 
 ### Check out [👉 Live here 👈](https://dcs-minion-speaks.netlify.app/)
 
-![]()
+![](https://raw.githubusercontent.com/dcs-soni/MinionSpeaks/main/img/aqua-line.png)
 
 ### About
 
@@ -28,7 +28,7 @@
 <img src="img/screenshot-mobile-ui.png" width="200" height="300" />
 </div>
 
-![]()
+![](https://raw.githubusercontent.com/dcs-soni/MinionSpeaks/main/img/aqua-line.png)
 
 
 </div>
