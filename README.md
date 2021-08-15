@@ -22,11 +22,6 @@
 <img src="img/netlify.svg" width="50" height="50" /> 
 
 
-<div>
-
-<img src="img/screenshot-ui.png" width="500" height="300" />&nbsp; &nbsp; &nbsp;
-<img src="img/screenshot-mobile-ui.png" width="200" height="300" />
-</div>
 
 ![](https://raw.githubusercontent.com/dcs-soni/MinionSpeaks/main/img/aqua-line.png)
 
